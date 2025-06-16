@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #222;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Container Setup */
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 32px 24px;
+      flex-grow: 1;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 48px;
+      align-items: start;
+      background-color: #fff;
+    }
+
+    /* Right Column */
+    .right-column {
+      background-color: #9b9b9b;
+      padding: 48px 40px;
+      border-radius: 12px;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 390px;
+    }
+
+    .right-column h2 {
+      font-size: 2.25rem;
+      margin-bottom: 24px;
+      font-weight: 900;
+      color: #222;
+    }
+
+    .project-link {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      color: #222;
+    }
+
+    .project-link img {
+      width: 50px; /* Adjust the size as needed */
+      height: 50px; /* Adjust the size as needed */
+      border-radius: 8px; /* Optional: add some rounding */
+      margin-right: 15px; /* Space between image and text */
+    }
+
+    .project-description {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  
+  <main class="container" role="main">
+    <section class="right-column" aria-label="My Projects">
+      <h2>My Projects</h2>
+      <div class="project-link">
+        <img src="project 1 pic.png" alt="Project 1 Thumbnail" />
+        <div>
+          <a href="https://yousifmunir1.github.io/last-version-of-website/" target="_blank">hotel layout</a>
+          <p class="project-description">simple hotel layout with 3 links, css, JS</p>
+        </div>
+      </div>
+      <div class="project-link">
+        <img src="project 2 pic.png" alt="Project 2 Thumbnail" />
+        <div>
+          <a href="https://yousifmunir1.github.io/cozy-corner-webpage/" target="_blank">simple coffee shop layout</a>
+          <p class="project-description">coffee shop layout with 3 4 links uaing html, css ,JS</p>
+        </div>
+      </div>
+      <div class="project-link">
+        <img src="project 3 pic.png" alt="Project 3 Thumbnail" />
+        <div>
+          <a href="https://yousifmunir1.github.io/restaurant-menu-webpage/" target="_blank">restaurant menu webpage</a>
+          <p class="project-description">made using html , css , Js</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
